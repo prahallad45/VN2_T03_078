@@ -1,0 +1,47 @@
+# Hadling Direct/Individual/Final value:
+----------------------------------------
+>>> x = 10
+>>> # x -> variable,  10 -> value,  =  --> Operator
+...
+>>> x = 10 # write operation
+>>> id(x)
+1697475888
+>>> type(x)
+<class 'int'>
+>>> print(x) # read operation
+10
+
+
+
+# Handle expression:
+-------------------
+>>> x = 10+20+30
+>>> print(x)
+60
+>>>
+
+# Float value :
+----------------
+>>> x = 10.5
+>>> id(x)
+2467076772176
+>>> type(x)
+<class 'float'>
+>>> print(x)
+10.5
+>>>
+
+# Boolean:
+---------------
+>>> is_active = False
+>>> type(is_active)
+<class 'bool'>
+>>> id(is_active)
+1696985344
+>>>
+>>> print(is_active)
+False
+>>>
+
+
+

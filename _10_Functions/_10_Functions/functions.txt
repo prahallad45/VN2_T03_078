@@ -1,0 +1,14 @@
+Functions
+------------------
+Generic way:
+-----------------
+print() - To print the given data in console
+type()  - To find the type of variable
+id()    - To find variable referring address
+
+type conversions:
+---------------------
+int()
+float()
+complex()
+bool()

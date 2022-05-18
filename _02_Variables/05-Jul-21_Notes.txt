@@ -1,0 +1,100 @@
+>>> x = 10  # write operation
+>>> print(x) # read operation
+10
+>>> x = 20
+>>> print(x)
+20
+>>> x = 10
+>>> print(x)
+10
+>>> y = 10
+>>> print(x)
+10
+>>> z = 10
+>>> print(x)
+10
+>>> print(z)
+10
+>>> print(id(x), id(y), id(z))
+1378708784 1378708784 1378708784
+>>> print(x,y,z)
+10 10 10
+>>> del x
+>>> print(x)   # ERROR
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>> print(y,z)
+10 10
+>>> del y
+>>> print(y,z)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'y' is not defined
+>>> print(z)
+10
+>>> del z
+>>> print(z)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'z' is not defined
+>>>
+>>> x = 10
+>>> print(x, id(x))
+10 1378708784
+>>> X = 20
+>>> print(X, id(X))
+20 1378709104
+>>> print(x,X)
+10 20
+>>>
+
+
+>>> x = 10
+>>> print(x)
+10
+>>>
+>>>
+>>> x = 20
+>>> print(x)
+20
+>>>
+
+_1_variables file
+--------------------
+>>> x = y = z = 10
+>>> print(x,y,z)
+10 10 10
+>>> z = 20
+>>> print(x,y,z)
+10 10 20
+>>> y = 30
+>>> print(x,y,z)
+10 30 20
+>>> x = 40
+>>> print(x,y,z)
+40 30 20
+
+
+_2_Variables:
+--------------
+
+
+
+
+>>> x = 10,20
+>>> print(x, type(x))
+(10, 20) <class 'tuple'>
+
+>>> x = 10,20
+>>> print(x, type(x))
+(10, 20) <class 'tuple'>
+>>>
+>>> x,y = 10,20
+>>> print(x,y)
+10 20
+>>> x,y = 10,20,30,40
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: too many values to unpack (expected 2)
+>>>

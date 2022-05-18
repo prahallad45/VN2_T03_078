@@ -1,0 +1,81 @@
+
+x = 10
+print(x)
+adddata = 1022
+
+_ad = 202
+# is = 10
+is_1 = 10
+_is = 10
+is_ = 10
+
+# First char should not be number
+_123 = 100
+# 123 = 100
+# 0123 = 10
+
+
+
+
+'''
+
+
+x = 10 
+
+LHS : variable    --> Identifier
+RHS : value       --> Literal
+=   : separator  ---> Operator
+
+constants : 
+COMPANY_NAME = 'Oracle'
+
+'''
+
+
+
+# 1. KEYWORDS ---> Reserved words
+# ex: is in as
+x = 10
+# is = 10 ---> is    is a keyword
+was = 10
+
+# 2. Identifiers: variable, functionname, classname, object, module
+
+_1var = 10
+print(_1var)
+
+message = "HelloWorld"
+employeedetails = 'MadhuNsdfsfdsfdsf'
+emp_details = 'Madhusdfadsfsdf'
+
+# 3. Literals:
+x = 10        # 10 Integer Literal
+val = 10.5    # 10.5 float literal
+exits = True  # True boolean literal
+message = 'Hello World'  # String literal
+
+# 4. Operators  Arithmetic ops : + - * / // %
+print(2+3)  # 2,3 -->  vals/Operands      + --> Operator
+x = 10      # = Operator
+
+# 5. Constants
+x = 10
+print(x)
+x = 20
+print(x)
+
+NAME = 'MadhuNettem'  # NAME is constant
+PI = 3.14
+print(PI)
+PI = 323
+print(PI)
+
+# for word in str1.split(" "):
+'''
+for  ->  Keyword
+word -> Identifier
+in   -> keyword/Operator
+str1 -> Identifier
+split ->Identifier
+
+'''
